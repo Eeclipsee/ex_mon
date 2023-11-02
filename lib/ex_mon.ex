@@ -1,7 +1,7 @@
 defmodule ExMon do
   alias ExMon.{Game, Player}
-  alias ExMon.game.status
-  
+  alias ExMon.Game.Status
+
   @computer_name "Robotinick"
 
   def create_player(name, move_avg, move_rnd, move_heal) do

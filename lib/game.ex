@@ -1,4 +1,4 @@
-defmodule ExMon.game do
+defmodule ExMon.Game do
     use Agent
 
     def start(computer, player) do
